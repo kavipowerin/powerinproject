@@ -1,0 +1,72 @@
+.container{
+	background: linear-gradient(90deg,rgba(225,225,225,0)0%,rgba(225,225,225,0.2)0%,rgba(225,225,225,0.2)0%,rgba(225,225,225,0)0%);
+	box-shadow: 0 0 20px black;	
+	width: display-width;
+	height:600px;
+}
+body{
+	background: pink
+}
+#gif{
+	border:5px solid black;
+	border-radius: 20px;
+}
+
+#fooled-h{
+	color:green;
+	background:black;
+	padding:20px;
+	border-radius:10px;
+}
+.message{
+	color:red;
+	background:gold;
+	font-family:'handlee',cursive;
+	width:300px;
+	padding:20px;
+	border:3px dotted blue;
+	border-radius:20px;
+	animation:alertMessage 2s linear infinite;
+}
+@-webkit-keyframes alertMessage{
+	30%{
+		color:white;
+		background:black;
+	}
+	60%{
+		color: gold;
+		background:skyblue;
+
+	}
+	100%{
+		background: linear-gradient(90deg,grey,silver,black)
+	}
+}
+marquee{
+	color:black;
+	background:linear-gradient(grey,silver,black);
+	font-family: 'handlee',cursive;
+}
+#complete{
+	width:200px;
+}
+#ready{
+	color:white;
+	background:black;
+	font-family:'handlee',cursive;
+	width:300px;
+	padding:20px;
+	border-radius:20px;
+}
+#lol{
+	width:200px;
+}
+#facebook{
+	background: blue;
+	color:white;
+	font-family:'handlee',cursive;
+	padding:3px;
+	border:3px solid white;
+	width:38px;
+	font-size:30px		;
+}

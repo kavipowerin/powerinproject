@@ -1,0 +1,36 @@
+body{
+	background: url(bg.jpg);
+
+}
+#logo{
+	width:400px;
+	opacity: 1;
+}
+.container{
+	background:pink;
+	margin-top:-90px;
+		
+	padding:20px;
+	border:5px solid red;
+	border-radius: 20px;
+	width:300px;
+	font-size:30px;
+	font-family:'handlee',cursive;
+}
+#input-text{
+	border:0;
+	background:linear-gradient(red,pink,red);
+	height:40px;	
+	border-radius:20px;
+	color:green;
+	font-size:20px;
+}
+#calculate{
+	color:white;
+	background:red;
+	font-size:30px;
+	border-radius:40px;
+}
+#loading-image{
+	width:70px;
+}
